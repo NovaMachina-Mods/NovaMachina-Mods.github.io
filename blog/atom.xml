@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://NovaMachina-Mods.github.io/blog</id>
+    <title>NovaMachina Mods Blog</title>
+    <updated>2022-07-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://NovaMachina-Mods.github.io/blog"/>
+    <subtitle>NovaMachina Mods Blog</subtitle>
+    <icon>https://NovaMachina-Mods.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[1.19 Release]]></title>
+        <id>https://NovaMachina-Mods.github.io/blog/2022/07/06/119-Release</id>
+        <link href="https://NovaMachina-Mods.github.io/blog/2022/07/06/119-Release"/>
+        <updated>2022-07-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A majority of the work of 1.19 is complete. We are currently in Alpha builds and have verified that all features are working as expected. To go into Beta builds and eventually into release, CraftTweaker needs to be updated to Minecraft 1.19.]]></summary>
+        <content type="html"><![CDATA[<p>A majority of the work of 1.19 is complete. We are currently in Alpha builds and have verified that all features are working as expected. To go into Beta builds and eventually into release, CraftTweaker needs to be updated to Minecraft 1.19.</p>]]></content>
+        <author>
+            <name>NovaMachina</name>
+            <uri>https://github.com/novamachina</uri>
+        </author>
+    </entry>
+</feed>
