@@ -31,14 +31,14 @@ onEvent('recipes', event => {
 #### Example
 
 ```javascript title="Pre KubeJS 6.1 script.js"
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
     event.recipes.exnihilosequentia.crook('minecraft:grass_block')
         .addDrop('minecraft:coal', 4, 0.5)
         .addDrop('minecraft:iron_ingot', 1, 0.25)
 }
 ```
 ```javascript title="KubeJS 6.1+ script.js"
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
     event.recipes.exnihilosequentia.crook('minecraft:grass_block',[
         {
             chance: 0.5,
@@ -133,14 +133,14 @@ onEvent('recipes', event => {
 #### Example
 
 ```javascript title="Pre KubeJS 6.1 script.js"
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
     event.recipes.exnihilosequentia.hammer('minecraft:pumpkin')
         .addDrop('minecraft:melon_slice', 20, 0.75)
         .addDrop('minecraft:pumpkin_seeds', 1, 1)
 }
 ```
 ```javascript title="KubeJS 6.1+ script.js"
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
     event.recipes.exnihilosequentia.hammer('minecraft:pumpkin',[
         {
             chance: 0.75,
@@ -188,14 +188,14 @@ onEvent('recipes', event => {
 #### Example
 
 ```javascript title="Pre KubeJS 6.1 script.js"
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
     event.recipes.exnihilosequentia.sieve('minecraft:coarse_dirt', 'minecraft:cobblestone')
         .addRoll(1, 'iron')
         .addRoll(1, 'diamond')
 }
 ```
 ```javascript title="KubeJS 6.1+ script.js"
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
     event.recipes.exnihilosequentia.sieve('minecraft:coarse_dirt', 'minecraft:cobblestone', [
         {
             chance: 1.0,
