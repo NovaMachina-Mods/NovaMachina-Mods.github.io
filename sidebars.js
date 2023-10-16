@@ -25,33 +25,6 @@ const sidebars = {
       label: 'Home',
     },
     {
-      type: 'category',
-      label: 'Blocks',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'blocks/barrel', 'blocks/crucible', 'blocks/sieve', 'blocks/miscellaneous'
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Items',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'items/crooks', 'items/dolls', 'items/hammers', 'items/miscellaneous'
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Configuration',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'configuration/configuration', 'configuration/crafttweaker', 'configuration/data_pack', 'configuration/kubejs'
-      ],
-    },
-    {
       type: 'doc',
       id: "contributing",
     }

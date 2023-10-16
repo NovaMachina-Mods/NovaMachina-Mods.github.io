@@ -31,9 +31,8 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -51,7 +50,19 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'exn',
+        path: 'exnihilosequentia',
+        routeBasePath: 'exnihilosequentia',
+        sidebarPath: require.resolve('./sidebarsEXN.js'),
+      },
     ],
   ],
 
@@ -86,8 +97,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentation',
+                label: 'Mod List',
                 to: '/docs/',
+              },
+              {
+                label: 'Ex Nihilo: Sequentia',
+                to: '/exnihilosequentia/',
               },
             ],
           },
