@@ -21,8 +21,7 @@
 import mods.exnihilosequentia.MeltingRecipe;
 import mods.exnihilosequentia.CrucibleType;
 
-<recipetype:exnihilosequentia:Melting>
-    .create("example", <item:minecraft:cobblestone>, <fluid:minecraft:lava> * 1000, CrucibleType.fired());
+<recipetype:exnihilosequentia:Melting>.addRecipe("example", <item:minecraft:cobblestone>, <fluid:minecraft:lava> * 1000, CrucibleType.fired());
 ```
 
 [CrucibleType]: ../../Helpers/CrucibleType

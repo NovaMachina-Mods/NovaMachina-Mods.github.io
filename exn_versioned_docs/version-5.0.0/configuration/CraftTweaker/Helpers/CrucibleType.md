@@ -1,4 +1,4 @@
-# Crucible Type
+# CrucibleType
 
 ---
 
