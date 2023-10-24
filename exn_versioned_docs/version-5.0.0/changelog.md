@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [NeoForged Semantic Versioning](https://docs.neoforged.net/docs/gettingstarted/versioning).
 
-## [5.0.0](https://github.com/NovaMachina-Mods/ExNihiloSequentia/compare/v5.0.0...HEAD) - 2023-01-01
+## [5.0.0](https://github.com/NovaMachina-Mods/ExNihiloSequentia/compare/v5.0.0...HEAD) - 2023-10-24
 
 ### Added
 - Dependency on [NovaCore](https://github.com/NovaMachina-Mods/NovaCore)
