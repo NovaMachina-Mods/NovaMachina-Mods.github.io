@@ -14,4 +14,4 @@ Dolls are used to spawn mobs in a barrel. To spawn a mob, craft the doll for the
 | Floating Doll   | ![](./image/doll_shulker.png)  | <ul><li>4x Purple Dye</li><li>1x End Stone</li><li>1x Porcelain Doll</li><li>1x Ender Pearl</li><li>2x Glowstone Dust</li></ul>  |
 | Protecting Doll | ![](./image/doll_guardian.png) | <ul><li>4x Prismarine Crystal</li><li>1x Redstone</li><li>1x Porcelain Doll</li><li>1x Fish</li><li>2x Glowstone Dust</li></ul>  |
 
-[barrel mob spawning]: /docs/blocks/barrel#mob-spawning
+[barrel mob spawning]: ../../blocks/barrel#mob-spawning
