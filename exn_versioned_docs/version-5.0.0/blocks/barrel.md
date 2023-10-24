@@ -30,7 +30,7 @@ Once a compost item is in the barrel, it cannot be removed. A barrel will void a
 - 6x Stone
 - 1x Stone Stab
 
-## Fluid Transformation
+## Transition
 
 The combination of some fluids and blocks will interact and transform the fluid in the barrel. The barrel must be full of the input fluid and the block placed directly below the full barrel.
 
@@ -39,7 +39,7 @@ The combination of some fluids and blocks will interact and transform the fluid 
 | Sea Water    | Water       | Sand     |
 | Witchwater   | Water       | Mycelium |
 
-## Fluid Block Transformation
+## Precipitate
 
 When certain blocks or items are right clicked on a full barrel, the fluid will transform into a solid block consuming the block or item.
 
@@ -61,7 +61,7 @@ When certain blocks or items are right clicked on a full barrel, the fluid will 
 | Tube Coral            | Sea Water   | Tube Coral Seed       |
 | Tube Coral Wall Fan   | Sea Water   | Tube Coral Fan        |
 
-## Fluid On Top
+## Solidifying
 
 Filling the barrel with a fluid and placing another fluid in the block space above the barrel will result in the fluid in the barrel becoming solid.
 
