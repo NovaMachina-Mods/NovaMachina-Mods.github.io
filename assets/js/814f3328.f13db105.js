@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkex_nihilo_sequentia_documentation=self.webpackChunkex_nihilo_sequentia_documentation||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"1.19 Release","permalink":"/blog/2022/07/06/119-Release"}]}')}}]);
